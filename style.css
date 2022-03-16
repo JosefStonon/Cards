@@ -43,8 +43,15 @@ body {
 
 .parag {
 	color: hsla(0, 0%, 100%, 0.75);
+	font-size: 25px;
 	font-weight: 700;
-	margin-top: 15px;
+	margin-top: 25px;
+}
+.parag01 {
+	color: hsl(0, 0%, 95%);
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 15px;
+	padding-top: 25px;
 }
 
 #sub-01 img {
@@ -74,6 +81,40 @@ body {
 	border-radius: 0 10px 10px 0;
 }
 
+.botao a {
+	text-decoration: none;
+}
+
+#bt01 {
+	padding: 12px 15px;
+	width: 125px;
+	margin-top: 80px;
+	background-color: hsla(0, 0%, 100%, 0.75);	
+	border: 2px solid hsla(0, 0%, 100%, 0.75);
+	border-radius: 25px;
+}
+
+#bt01:hover {
+	background-color: hsl(31, 77%, 52%);
+}
+
+#bt01 a {
+	width: 100%;
+	color: hsl(31, 77%, 52%);
+	padding: 12px 15px;
+	width: 125px;
+
+}
+
+
+
+
+#bt01 a:hover {
+	color: hsla(0, 0%, 100%, 0.75);
+	padding: 12px 15px;
+	width: 125px;
+}
+
 
 
 .attribution {
@@ -85,9 +126,7 @@ body {
 	 color: hsl(228, 45%, 44%); 
 }
 
+
+
 /*.attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }*/
-
-.
-
-
