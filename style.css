@@ -85,7 +85,7 @@ body {
 	text-decoration: none;
 }
 
-#bt01 {
+#bt01, #bt02, #bt03 {
 	padding: 12px 15px;
 	width: 125px;
 	margin-top: 80px;
@@ -103,17 +103,51 @@ body {
 	color: hsl(31, 77%, 52%);
 	padding: 12px 15px;
 	width: 125px;
-
 }
-
-
-
 
 #bt01 a:hover {
 	color: hsla(0, 0%, 100%, 0.75);
 	padding: 12px 15px;
 	width: 125px;
 }
+
+#bt02:hover {
+	background-color: hsl(184, 100%, 22%);
+}
+
+#bt02 a {
+	color: hsl(184, 100%, 22%);
+	padding: 12px 11px;
+	width: 125px;
+}
+
+
+
+#bt02 a:hover {
+	color: hsla(0, 0%, 100%, 0.75);
+	padding: 12px 11px;
+	width: 125px;
+}
+
+#bt03:hover {
+	background-color: hsl(179, 100%, 13%);
+}
+
+#bt03 a {
+	color: hsl(184, 100%, 22%);
+	padding: 12px 11px;
+	width: 125px;
+}
+
+
+
+#bt03 a:hover {
+	color: hsla(0, 0%, 100%, 0.75);
+	padding: 12px 11px;
+	width: 125px;
+}
+
+
 
 
 
