@@ -9,7 +9,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
 }
 
 body {
@@ -121,8 +120,6 @@ body {
 	width: 125px;
 }
 
-
-
 #bt02 a:hover {
 	color: hsla(0, 0%, 100%, 0.75);
 	padding: 12px 11px;
@@ -146,21 +143,3 @@ body {
 	padding: 12px 11px;
 	width: 125px;
 }
-
-
-
-
-
-.attribution {
-	font-size: 11px; 
-	text-align: center;
-}
-
-.attribution a {
-	 color: hsl(228, 45%, 44%); 
-}
-
-
-
-/*.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }*/
