@@ -79,67 +79,71 @@ body {
 	background-color: hsl(179, 100%, 13%);
 	border-radius: 0 10px 10px 0;
 }
-
-.botao a {
-	text-decoration: none;
-}
-
-#bt01, #bt02, #bt03 {
-	padding: 12px 15px;
-	width: 125px;
-	margin-top: 80px;
-	background-color: hsla(0, 0%, 100%, 0.75);	
-	border: 2px solid hsla(0, 0%, 100%, 0.75);
+.botao .parag01 {
+	cursor: pointer;
+	text-align: center;
 	border-radius: 25px;
+	padding: 10px;
+	margin: 60px 60px 0 0;
 }
 
-#bt01:hover {
-	background-color: hsl(31, 77%, 52%);
-}
-
-#bt01 a {
-	width: 100%;
+.botao #bt01 {
+	background-color: rgb(212, 212, 212);
 	color: hsl(31, 77%, 52%);
-	padding: 12px 15px;
-	width: 125px;
+	outline: 2px solid hsl(0, 0%, 95%);
+ 	outline-offset: -2px;
 }
 
-#bt01 a:hover {
-	color: hsla(0, 0%, 100%, 0.75);
-	padding: 12px 15px;
-	width: 125px;
+.botao #bt01:hover {
+	color: rgb(212, 212, 212);
+	background-color: hsl(31, 77%, 52%);
+	outline: 2px solid rgb(212, 212, 212);
+ 	outline-offset: -2px;
 }
 
-#bt02:hover {
+.botao #bt02 {
+	background-color: rgb(212, 212, 212);
+	color: hsl(184, 100%, 22%);
+	outline: 2px solid hsl(0, 0%, 95%);
+ 	outline-offset: -2px;
+}
+
+.botao #bt02:hover {
+	color: rgb(212, 212, 212);
 	background-color: hsl(184, 100%, 22%);
+	outline: 2px solid rgb(212, 212, 212);
+ 	outline-offset: -2px;
 }
 
-#bt02 a {
-	color: hsl(184, 100%, 22%);
-	padding: 12px 11px;
-	width: 125px;
+.botao #bt03 {
+	background-color: rgb(212, 212, 212);
+	color: hsl(179, 100%, 13%);
+	outline: 2px solid hsl(0, 0%, 95%);
+ 	outline-offset: -2px;
 }
 
-#bt02 a:hover {
-	color: hsla(0, 0%, 100%, 0.75);
-	padding: 12px 11px;
-	width: 125px;
-}
-
-#bt03:hover {
+.botao #bt03:hover {
+	color: rgb(212, 212, 212);
 	background-color: hsl(179, 100%, 13%);
+	outline: 2px solid rgb(212, 212, 212);
+ 	outline-offset: -2px;
 }
 
-#bt03 a {
-	color: hsl(184, 100%, 22%);
-	padding: 12px 11px;
-	width: 125px;
-}
+@media only screen and (max-width: 900px) {
+	body {
+	  height: auto;
+	  margin: 50px 0;
+	}
+	.container {
+	  display: grid;
+	  grid-template-columns: 280px;
+	  grid-template-rows: 450px 450px 450px;
+	}
 
+	#sub-01 {
+		border-radius: 10px 10px 0 0;
+	}
 
-
-#bt03 a:hover {
-	color: hsla(0, 0%, 100%, 0.75);
-	padding: 12px 11px;
-	width: 125px;
-}
+	#sub-03 {
+		border-radius: 0 0 10px 10px;
+	}
